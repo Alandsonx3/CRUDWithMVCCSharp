@@ -1,0 +1,15 @@
+D:\dev\CrudWithMVC\crudbasicwithmvc\bin\Debug\net9.0\crudBasicWithMVC.exe
+D:\dev\CrudWithMVC\crudbasicwithmvc\bin\Debug\net9.0\crudBasicWithMVC.deps.json
+D:\dev\CrudWithMVC\crudbasicwithmvc\bin\Debug\net9.0\crudBasicWithMVC.runtimeconfig.json
+D:\dev\CrudWithMVC\crudbasicwithmvc\bin\Debug\net9.0\crudBasicWithMVC.dll
+D:\dev\CrudWithMVC\crudbasicwithmvc\bin\Debug\net9.0\crudBasicWithMVC.pdb
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.AssemblyInfoInputs.cache
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.AssemblyInfo.cs
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.csproj.CoreCompileInputs.cache
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.sourcelink.json
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.dll
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\refint\crudBasicWithMVC.dll
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.pdb
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\crudBasicWithMVC.genruntimeconfig.cache
+D:\dev\CrudWithMVC\crudbasicwithmvc\obj\Debug\net9.0\ref\crudBasicWithMVC.dll

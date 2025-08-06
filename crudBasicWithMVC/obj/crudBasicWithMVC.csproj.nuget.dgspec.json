@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dev\\CrudWithMVC\\crudBasicWithMVC\\crudBasicWithMVC.csproj": {}
+    "D:\\dev\\CrudWithMVC\\crudbasicwithmvc\\crudBasicWithMVC.csproj": {}
   },
   "projects": {
-    "D:\\dev\\CrudWithMVC\\crudBasicWithMVC\\crudBasicWithMVC.csproj": {
+    "D:\\dev\\CrudWithMVC\\crudbasicwithmvc\\crudBasicWithMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dev\\CrudWithMVC\\crudBasicWithMVC\\crudBasicWithMVC.csproj",
+        "projectUniqueName": "D:\\dev\\CrudWithMVC\\crudbasicwithmvc\\crudBasicWithMVC.csproj",
         "projectName": "crudBasicWithMVC",
-        "projectPath": "D:\\dev\\CrudWithMVC\\crudBasicWithMVC\\crudBasicWithMVC.csproj",
+        "projectPath": "D:\\dev\\CrudWithMVC\\crudbasicwithmvc\\crudBasicWithMVC.csproj",
         "packagesPath": "C:\\Users\\aland\\.nuget\\packages\\",
-        "outputPath": "D:\\dev\\CrudWithMVC\\crudBasicWithMVC\\obj\\",
+        "outputPath": "D:\\dev\\CrudWithMVC\\crudbasicwithmvc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
