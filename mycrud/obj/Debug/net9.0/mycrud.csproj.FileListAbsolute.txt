@@ -1,0 +1,15 @@
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.GeneratedMSBuildEditorConfig.editorconfig
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.AssemblyInfoInputs.cache
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.AssemblyInfo.cs
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.csproj.CoreCompileInputs.cache
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.sourcelink.json
+D:\dev\CrudWithMVC\mycrud\bin\Debug\net9.0\mycrud.exe
+D:\dev\CrudWithMVC\mycrud\bin\Debug\net9.0\mycrud.deps.json
+D:\dev\CrudWithMVC\mycrud\bin\Debug\net9.0\mycrud.runtimeconfig.json
+D:\dev\CrudWithMVC\mycrud\bin\Debug\net9.0\mycrud.dll
+D:\dev\CrudWithMVC\mycrud\bin\Debug\net9.0\mycrud.pdb
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.dll
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\refint\mycrud.dll
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.pdb
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\mycrud.genruntimeconfig.cache
+D:\dev\CrudWithMVC\mycrud\obj\Debug\net9.0\ref\mycrud.dll

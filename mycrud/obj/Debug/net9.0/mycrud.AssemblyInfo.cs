@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("crudBasicWithMVC")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("mycrud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b72e87cc3a3fcfa6f11e5995fd085740b870d6e3")]
-[assembly: System.Reflection.AssemblyProductAttribute("crudBasicWithMVC")]
-[assembly: System.Reflection.AssemblyTitleAttribute("crudBasicWithMVC")]
+[assembly: System.Reflection.AssemblyProductAttribute("mycrud")]
+[assembly: System.Reflection.AssemblyTitleAttribute("mycrud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
