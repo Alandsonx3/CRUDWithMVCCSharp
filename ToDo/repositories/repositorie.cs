@@ -1,7 +1,9 @@
+using ToDo.Modal;
+
 namespace ToDo.Repository
 {
-  public class Repository
+  public class MyRepository
   {
-    public static List<Task> Task = new List<Task>();
+    public static List<ToDoModal> Tarefa = new List<ToDoModal>();
   }
 }

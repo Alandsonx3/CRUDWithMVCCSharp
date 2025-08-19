@@ -2,46 +2,49 @@ using ToDo.Repository;
 
 namespace ToDo.Modal
 {
-  public static class ToDoModal
+  public class ToDoModal
   {
     public int Id { get; set; }
     public string? Title { get; set; }
     public string? Description { get; set; }
-    public DateTime DateTime { get; set; }
+    public DateTime Date { get; set; }
     public string? Status { get; set; }
 
 
     // Instantiating and creating a new item in the Tasks repository based on the data found;
-    public void Create(int id, string title, string desc, DateTime date, string status)
+    public static void Create(string title, string desc, DateTime date, string status)
     {
-      Repository.Task.Count + 1;
-      Title = title;
-      Description = desc;
-      DateTime = date;
-      Status = status;
+      var NewTask = new ToDoModal
+      {
+        Id = MyRepository.Tarefa.Count + 1,
+        Title = title,
+        Description = desc,
+        Date = date,
+        Status = status
+      };
 
-      Repository.Task.Add(this);
+      MyRepository.Tarefa.Add(NewTask);
     }
 
     // Get reference from the Tasks repository
-    public List<Task> Read()
+    public static List<ToDoModal> Read()
     {
-      return Repository.Task;
+      return MyRepository.Tarefa;
     }
 
     // Update values from Tasks repository with id reference
-    public void Update(int Id, string title, string desc, string date, string status)
+    public static void Update(int Id, string title, string desc, DateTime date, string status)
     {
-      Repository.Task[Id].Title = title;
-      Repository.Task[Id].Description = desc;
-      Repository.Task[Id].DateTime = date;
-      Repository.Task[Id].Status = status;
+      MyRepository.Tarefa[Id].Title = title;
+      MyRepository.Tarefa[Id].Description = desc;
+      MyRepository.Tarefa[Id].Date = date;
+      MyRepository.Tarefa[Id].Status = status;
     }
 
     // Remove item from Tasks repository with id reference
-    public void Delete(int Id)
+    public static void Delete(int Id)
     {
-      Repository.Task.RemoveAt(Id);
+      MyRepository.Tarefa.RemoveAt(Id);
     }
 
   }
