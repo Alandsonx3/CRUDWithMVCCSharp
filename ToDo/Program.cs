@@ -22,7 +22,7 @@ namespace ToDo.Main
           Console.WriteLine("=> 5 - Sair;");
 
           Console.Write("\nInforme a opção: ");
-          opcao = int.Parse(Console.ReadLine());
+          opcao = Convert.ToInt32(Console.ReadLine());
 
             switch (opcao)
           {

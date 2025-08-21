@@ -7,11 +7,22 @@ namespace ToDo.Service
   {
     public static void Create(string title, string desc, DateTime date, string status)
     {
-      bool titleValid = IsInputValid(title);
-      bool stateValid = IsInputValid(status);
+      string titleValid = IsInputValid(title);
+      if (titleValid == "invalido")
+      {
+        Console.Write("\nATENÇÃO: Título vazio!");
+        Console.ReadLine();
+      }
+
+      string stateValid = IsInputValid(status);
+      if (stateValid == "invalido")
+      {
+        Console.Write("ATENÇÃO: Status em branco!");
+        Console.ReadLine();
+      }
 
 
-      if (titleValid && stateValid)
+      if (titleValid == "ok" && stateValid == "ok")
       {
         ToDoModal.Create(title, desc, date, status);
       }
@@ -25,16 +36,26 @@ namespace ToDo.Service
       {
         Console.WriteLine($"{value.Id} - {value.Title} - {value.Description} - {value.Date.ToString("dd/MM/yyyy 'às' HH:mm:ss")} [{value.Status}]");
       }
-        Console.ReadLine();
+      Console.ReadLine();
 
     }
     public static void Update(int id, string title, string desc, DateTime date, string status)
     {
-      bool titleValid = IsInputValid(title);
-      bool stateValid = IsInputValid(status);
+      string titleValid = IsInputValid(title);
+      if (titleValid == "invalido")
+      {
+        Console.WriteLine("Título vazio!");
+        Console.ReadLine();
+      }
 
+      string stateValid = IsInputValid(status);
+      if (stateValid == "invalido")
+      {
+        Console.WriteLine("Status em branco!");
+        Console.ReadLine();
+      }
 
-      if (titleValid && stateValid)
+      if (titleValid == "ok" && stateValid == "ok")
       {
         ToDoModal.Update(id, title, desc, date, status);
       }
@@ -43,17 +64,17 @@ namespace ToDo.Service
     {
       ToDoModal.Delete(id);
     }
-    public static bool IsInputValid(string value)
+    public static string IsInputValid(string value)
     {
-      bool validation = false;
+      string validation;
 
-      if (value != null || value != "")
+      if (value == "")
       {
-        validation = true;
+        validation = "invalido";
       }
       else
       {
-        Console.WriteLine("Favor insira algum valor valido");
+        validation = "ok";
       }
       return validation;
     }
